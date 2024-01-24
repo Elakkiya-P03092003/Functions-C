@@ -1,0 +1,11 @@
+#include <stdio.h>
+ int rectangular(int l,int b){
+      int c = l*b;
+}
+int main(){
+    int l,b,c;
+    scanf("%d %d",&l,&b);
+    c=rectangular(l,b);
+    printf("%d",c);
+    return 0;
+}
